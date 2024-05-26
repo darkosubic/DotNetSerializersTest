@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialiersTest.Benchmark", "SerialiersTest.Benchmark\SerialiersTest.Benchmark.csproj", "{46D2FF19-FF86-48DC-89A0-99BE96BC3560}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialiersTest.DTO", "SerialiersTest.DTO\SerialiersTest.DTO.csproj", "{8A3E4DCC-A631-46DC-95FE-C4A1C00995F2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialiersTest.Serializers", "SerialiersTest.Serializers\SerialiersTest.Serializers.csproj", "{29883EF1-3E0F-41D8-883B-722F6D151F1D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialiersTest.Benchmark", "SerialiersTest.Benchmark\SerialiersTest.Benchmark.csproj", "{46D2FF19-FF86-48DC-89A0-99BE96BC3560}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialiersTest.Playground", "SerialiersTest.Playground\SerialiersTest.Playground.csproj", "{84A057A3-8673-4747-B573-7895646A9C5F}"
 EndProject
