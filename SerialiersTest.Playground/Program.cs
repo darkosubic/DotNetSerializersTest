@@ -5,15 +5,15 @@ namespace SerialiersTest.Playground
 {
     class Program
     {
-        private static readonly TestConstants _constants = new TestConstants();
-        private static readonly JilExample _jil = new JilExample();
-        private static readonly JsonNetExample _jsonNet = new JsonNetExample();
-        private static readonly NetJSONExample _netJSON = new NetJSONExample();
-        private static readonly NewtonsoftExample _newtonsoft = new NewtonsoftExample();
-        private static readonly ServiceStackTextExample _serviceStackText = new ServiceStackTextExample();
-        private static readonly SystemTextJsonExample _systemText = new SystemTextJsonExample();
-        private static readonly Utf8Example _utf8 = new Utf8Example();
-        private static readonly SpanJsonExample _spanJson = new SpanJsonExample();
+        private static readonly TestConstants _constants = new();
+        private static readonly JilExample _jil = new();
+        private static readonly JsonNetExample _jsonNet = new();
+        private static readonly NetJSONExample _netJSON = new();
+        private static readonly NewtonsoftExample _newtonsoft = new();
+        private static readonly ServiceStackTextExample _serviceStackText = new();
+        private static readonly SystemTextJsonExample _systemText = new();
+        private static readonly Utf8Example _utf8 = new();
+        private static readonly SpanJsonExample _spanJson = new();
 
         static void Main(string[] args)
         {

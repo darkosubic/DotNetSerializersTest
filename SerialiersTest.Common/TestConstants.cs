@@ -13,11 +13,11 @@ namespace SerialiersTest.Common
 
         public TestConstants()
         {
-            NewtonsoftExample ne = new NewtonsoftExample();
+            NewtonsoftExample ne = new();
             Addresses = ne.BigSimpleJsonDeserialize(BigComplexJsonFileContent);
             Address = ne.SmallSimpleJsonDeserialize(SmallComplexJsonFileContent);
             People = ne.BigComplexJsonDeserialize(BigSimpleJsonFileContent);
-            Person = ne.SmallComplexJsonDeserialize(SmallSimpleJsonFileContent);           
+            Person = ne.SmallComplexJsonDeserialize(SmallSimpleJsonFileContent);
         }
 
         private List<PersonDto> _people;
