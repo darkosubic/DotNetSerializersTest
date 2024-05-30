@@ -16,18 +16,6 @@ namespace SerialiersTest.Benchmark.Benchmarks
         }
 
         [Benchmark]
-        public void Utf8Serialize()
-        {
-            _utf8.BigSimpleJsonSerialize(_constants.Addresses);
-        }
-
-        [Benchmark]
-        public void Utf8Deserialize()
-        {
-            _utf8.BigSimpleJsonDeserialize(_jsonFile);
-        }
-
-        [Benchmark]
         public void NewtonSerialize()
         {
             _newton.BigSimpleJsonSerialize(_constants.Addresses);

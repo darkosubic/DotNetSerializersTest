@@ -15,17 +15,6 @@ namespace SerialiersTest.Benchmark.Benchmarks
             _jsonFile = tc.SmallComplexJsonFileContent;
         }
 
-        [Benchmark]
-        public void Utf8Serialize()
-        {
-            _utf8.SmallComplexJsonSerialize(_constants.Person);
-        }
-
-        [Benchmark]
-        public void Utf8Deserialize()
-        {
-            _utf8.SmallComplexJsonDeserialize(_jsonFile);
-        }
 
         [Benchmark]
         public void NewtonSerialize()

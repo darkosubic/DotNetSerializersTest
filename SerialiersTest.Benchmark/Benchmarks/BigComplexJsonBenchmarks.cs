@@ -16,18 +16,6 @@ namespace SerialiersTest.Benchmark.Benchmarks
         }
 
         [Benchmark]
-        public void Utf8Serialize()
-        {
-            _utf8.BigComplexJsonSerialize(_constants.People);
-        }
-
-        [Benchmark]
-        public void Utf8Deserialize()
-        {
-            _utf8.BigComplexJsonDeserialize(_jsonFile);
-        }
-
-        [Benchmark]
         public void NewtonSerialize()
         {
             _newton.BigComplexJsonSerialize(_constants.People);

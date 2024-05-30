@@ -12,7 +12,6 @@ namespace SerialiersTest.Playground
         private static readonly NewtonsoftExample _newtonsoft = new();
         private static readonly ServiceStackTextExample _serviceStackText = new();
         private static readonly SystemTextJsonExample _systemText = new();
-        private static readonly Utf8Example _utf8 = new();
         private static readonly SpanJsonExample _spanJson = new();
 
         static void Main(string[] args)
@@ -23,7 +22,6 @@ namespace SerialiersTest.Playground
             NewtonsoftSerializerTests();
             ServiceStackTextSerializerTests();
             SystemTextJsonExampleSerializerTests();
-            Utf8ExampleSerializerTests();
             SpanJsonExampleSerializerTests();
         }
 
@@ -103,19 +101,6 @@ namespace SerialiersTest.Playground
             var result6 = _systemText.SmallSimpleJsonSerialize(_constants.Address);
             var result7 = _systemText.BigSimpleJsonDeserialize(_constants.BigComplexJsonFileContent);
             var result8 = _systemText.BigSimpleJsonSerialize(_constants.Addresses);
-        }
-
-        private static void Utf8ExampleSerializerTests()
-        {
-            var result1 = _utf8.SmallComplexJsonDeserialize(_constants.SmallSimpleJsonFileContent);
-            var result2 = _utf8.SmallComplexJsonSerialize(_constants.Person);
-            var result3 = _utf8.BigComplexJsonDeserialize(_constants.BigSimpleJsonFileContent);
-            var result4 = _utf8.BigComplexJsonSerialize(_constants.People);
-
-            var result5 = _utf8.SmallSimpleJsonDeserialize(_constants.SmallComplexJsonFileContent);
-            var result6 = _utf8.SmallSimpleJsonSerialize(_constants.Address);
-            var result7 = _utf8.BigSimpleJsonDeserialize(_constants.BigComplexJsonFileContent);
-            var result8 = _utf8.BigSimpleJsonSerialize(_constants.Addresses);
         }
 
         private static void SpanJsonExampleSerializerTests()

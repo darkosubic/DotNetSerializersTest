@@ -14,7 +14,6 @@ namespace SerialiersTest.Benchmark.Benchmarks
     {
         protected static readonly TestConstants _constants = new();
         protected static readonly NewtonsoftExample _newton = new();
-        protected static readonly Utf8Example _utf8 = new();
         protected static readonly ServiceStackTextExample _serviceStackText = new();
         protected static readonly NetJSONExample _netJSON = new();
         protected static readonly JsonNetExample _jsonNet = new();
